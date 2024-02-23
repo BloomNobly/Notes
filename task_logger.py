@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 file = datetime.now().strftime('%B %Y') + ".txt"
-#Note: Directory will need to be changed if used by anyone other than Liam
+#Note: Directory will need to be changed
 file_location = "FILE_LOCATION_HERE" + file
 
 if os.path.exists(file_location):
